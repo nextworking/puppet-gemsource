@@ -5,7 +5,7 @@ Puppet::Type.type(:gemsource).provide(:gem) do
      if @resource[:pe] != :true
       "gem"
     else
-      "/opt/puppet/bin/gem"
+      "/opt/puppetlabs/puppet/bin/gem"
     end
   end
 
